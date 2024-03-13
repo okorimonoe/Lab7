@@ -34,6 +34,8 @@ while running:
             elif event.key == pygame.K_d:
                 circle_x += speed
 
+
+
     if circle_x < 25:
         circle_x = 25
     elif circle_x > screen_width - 25:
@@ -42,4 +44,3 @@ while running:
         circle_y = 25
     elif circle_y > screen_height - 25:
         circle_y = screen_height - 25
-
