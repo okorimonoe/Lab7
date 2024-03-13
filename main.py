@@ -2,7 +2,7 @@ import pygame
 
 pygame.init()
 screen_width, screen_height = 600, 300
-screen = pygame.display.set_mode((600, 300), pygame.RESIZABLE)
+screen = pygame.display.set_mode((600, 300))
 pygame.display.set_caption("Pygame Game #1")
 icon = pygame.image.load("images/icon.png")
 pygame.display.set_icon(icon)
@@ -34,7 +34,6 @@ while running:
                 circle_x -= speed
             elif event.key == pygame.K_d:
                 circle_x += speed
-
 
     if circle_x < 25:
         circle_x = 25
