@@ -12,6 +12,7 @@ running = True
 circle_x, circle_y = 50, 50
 speed = 20
 
+
 while running:
     screen.fill("White")
 
