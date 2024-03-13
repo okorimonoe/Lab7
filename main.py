@@ -36,7 +36,6 @@ while running:
                 circle_x += speed
 
 
-
     if circle_x < 25:
         circle_x = 25
     elif circle_x > screen_width - 25:
